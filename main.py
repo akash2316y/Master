@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-OWNER_ID = int(os.environ.get("OWNER_ID", 123456789))  # <-- Apna TG ID yahan daalo
+OWNER_ID = int(os.environ.get("OWNER_ID", 7889947993))  # <-- Apna TG ID yahan daalo
 
 app = Client("multi-admin-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
